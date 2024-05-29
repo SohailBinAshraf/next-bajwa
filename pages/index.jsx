@@ -19,22 +19,22 @@ export default function Home() {
   useEffect(() => {
     setLogo(currentTheme === 'dark' ? LogoWhite : LogoBlack);
   }, [currentTheme]);
-    
+
   return (
     <>
       <Head>
         <title>Bajwa Security</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
           <div className="text-center mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
-            <p className="mt-20 text-3xl sm:leading-6 md:leading-6 lg:leading-8">
-              Safety Evolved: Smarter, Stronger & Secure
-            </p>
-            {/* <p className="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 sm:leading-6 md:leading-6 lg:leading-8">
+            {/* <p className="mt-20 text-3xl sm:leading-6 md:leading-6 lg:leading-8">
               Safety Evolved: Smarter, Stronger & Secure
             </p> */}
+            <p className="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 sm:leading-6 md:leading-6 lg:leading-8">
+              Safety Evolved: Smarter, Stronger & Secure
+            </p>
             <div className="flex justify-center items-center mt-12">
               <Image src={logo} alt="white logo" width="250" />
             </div>
