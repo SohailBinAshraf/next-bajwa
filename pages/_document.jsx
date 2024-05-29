@@ -9,62 +9,62 @@ export default function Document() {
     >
       <Head>
         {/* <title>pranjal ✦ developer, designer</title> */}
-        <meta name="title" content="pranjal ✦ developer, designer" />
-        <meta name="description" content="Developer // Designer // Weeb" />
+        <meta name="title" content="Bajwa Security" />
+        <meta name="description" content="Welcome to Bajwa Security, the leading provider of comprehensive security solutions. Our expert team offers top-tier security services tailored to meet the unique needs of businesses and residential properties." />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:url" content="https://bajwasecurity.vercel.app/" />
+        <meta property="og:title" content="Bajwa Security" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Welcome to Bajwa Security, the leading provider of comprehensive security solutions. Our expert team offers top-tier security services tailored to meet the unique needs of businesses and residential properties."
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://asset.cloudinary.com/dbbuxo6rt/171b0aee990dacac84cfcaf70e47caa4"
         />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://pranjalshikhar.vercel.app/"
+          content="https://bajwasecurity.vercel.app/"
         />
         <meta
           property="twitter:title"
-          content="pranjal ✦ developer, designer"
+          content="Bajwa Security"
         />
         <meta
           property="twitter:description"
-          content="Developer // Designer // Weeb"
+          content="Welcome to Bajwa Security, the leading provider of comprehensive security solutions. Our expert team offers top-tier security services tailored to meet the unique needs of businesses and residential properties."
         />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://asset.cloudinary.com/dbbuxo6rt/171b0aee990dacac84cfcaf70e47caa4"
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="pranjal ✦ developer, designer" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:site_name" content="Bajwa Security" />
+        <meta property="og:title" content="Bajwa Security" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Welcome to Bajwa Security, the leading provider of comprehensive security solutions. Our expert team offers top-tier security services tailored to meet the unique needs of businesses and residential properties."
         />
         <meta
           property="og:image"
           itemprop="image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://asset.cloudinary.com/dbbuxo6rt/171b0aee990dacac84cfcaf70e47caa4"
         />
         <meta property="og:type" content="website" />
 
         {/* canonical links */}
-        <link rel="canonical" href="https://pranjalshikhar.vercel.app/" />
+        <link rel="canonical" href="https://bajwasecurity.vercel.app/" />
         <link
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="pranjal ✦ developer, designer"
+          title="Bajwa Security"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
