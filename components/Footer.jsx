@@ -11,32 +11,32 @@ import Image from "next/image";
 import Star from "@/public/Star.svg";
 
 const Footer = () => {
-  const [metaData, setMetaData] = useState({ star: 0, forks: 0 });
-  const [isHovering, setIsHovering] = useState(false);
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
-  useEffect(() => {
-    const getData = async () => {
-      const data = await fetch(
-        "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
-      ).then((res) => res.json());
-      setMetaData({
-        star: data.stargazers_count,
-        forks: data.forks_count,
-      });
-    };
-    getData();
-  }, []);
+  // const [metaData, setMetaData] = useState({ star: 0, forks: 0 });
+  // const [isHovering, setIsHovering] = useState(false);
+  // const handleMouseOver = () => {
+  //   setIsHovering(true);
+  // };
+  // const handleMouseOut = () => {
+  //   setIsHovering(false);
+  // };
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     const data = await fetch(
+  //       "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
+  //     ).then((res) => res.json());
+  //     setMetaData({
+  //       star: data.stargazers_count,
+  //       forks: data.forks_count,
+  //     });
+  //   };
+  //   getData();
+  // }, []);
 
   return (
     <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
-          href="https://www.linkedin.com/in/pranjalshikhar"
+          href="https://www.linkedin.com/"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -44,26 +44,26 @@ const Footer = () => {
           {/* LinkedIn{" "} */}
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
-        <Link
+        {/* <Link
           href="https://github.com/pranjalshikhar?tab=repositories"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
-        >
+        > */}
           {" "}
           {/* GitHub{" "} */}
-          <Image src={GitHub} alt="github" width="30" />
-        </Link>
-        <Link
+          {/* <Image src={GitHub} alt="github" width="30" /> */}
+        {/* </Link> */}
+        {/* <Link
           href="https://www.behance.net/pranjalshikhar"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
-        >
+        > */}
           {" "}
           {/* Bēhance{" "} */}
-          <Image src={Behance} alt="behnace" width="30" />
-        </Link>
+          {/* <Image src={Behance} alt="behnace" width="30" /> */}
+        {/* </Link> */}
         <a
-          href="https://instagram.com/pranjal.fig"
+          href="https://instagram.com"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -72,7 +72,7 @@ const Footer = () => {
           <Image src={Instagram} alt="instagram" width="30" />
         </a>
         <Link
-          href="mailto:shikhar.pranjal3@gmail.com"
+          href="mailto:bajwasecurity@gmail.com"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
@@ -82,7 +82,7 @@ const Footer = () => {
           <Image src={Gmail} alt="gmail" width="30" />
         </Link>
       </div>
-      <a
+      {/* <a
         href="https://github.com/pranjalshikhar/portfolio-v3"
         target="blank"
         rel="noreferrer"
@@ -94,9 +94,8 @@ const Footer = () => {
           className="relative transition-all ease-in-out duration-1000   "
         >
           <p
-            className={` ${
-              isHovering && "scale-150 blur-[6px]"
-            } group font-bold animate-text duration-700 transition-all linear  group-hover:bg-white lg:text-gray-700 lg:dark:text-white/40 lg:group-hover:text-transparent bg-gradient-to-r mb-2 from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-sm sm:text-base md:text-lg`}
+            className={` ${isHovering && "scale-150 blur-[6px]"
+              } group font-bold animate-text duration-700 transition-all linear  group-hover:bg-white lg:text-gray-700 lg:dark:text-white/40 lg:group-hover:text-transparent bg-gradient-to-r mb-2 from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-sm sm:text-base md:text-lg`}
           >
             pranjal shikhar sinha
           </p>
@@ -126,7 +125,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </a>
+      </a> */}
     </div>
   );
 };

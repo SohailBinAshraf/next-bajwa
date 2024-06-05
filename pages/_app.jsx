@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
       <main className="land relative z-10">
         <Header />
         <Component {...pageProps} />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </ThemeProvider>
   );

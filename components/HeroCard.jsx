@@ -4,7 +4,7 @@ const HeroCard = ({ image, alter, heading, detail, caption}) => {
     return (
         <div className="flex justify-center items-center">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-900 dark:border-gray-700 text-center">
-                {image && <Image className="rounded-t-lg" width={400} src={image} alt={alter} />}
+                {image && <Image className="rounded-t-lg" width={400} height={400} src={image} alt={alter} />}
                 <div className="p-5">
                     <h4 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         {heading}
