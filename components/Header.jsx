@@ -8,8 +8,6 @@ import Link from "next/link";
 
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
-import pranjal_header_black from "@/public/pranjal-header-black.svg";
-import pranjal_header_white from "@/public/pranjal-header-white.svg";
 import LogoWhite from "@/public/header-logo-white.svg";
 import LogoBlack from "@/public/header-logo-black.svg";
 
@@ -20,8 +18,8 @@ const Header = () => {
   let Links = [
     // { name: "Home", link: "/timeline" },
     { name: "Home", link: "/" },
-    { name: "Services", link: "/staytuned" },
-    { name: "About", link: "/staytuned" },
+    { name: "Services", link: "/services" },
+    { name: "About", link: "/about" },
     { name: "Contact", link: "/staytuned" },
     { name: "Careers", link: "/staytuned" },
   ];

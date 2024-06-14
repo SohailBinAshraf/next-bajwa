@@ -3,7 +3,6 @@
 export default function Staytuned() {
     return (
         <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
-
             <main className="min-h-screen max-w-screen">
                 <div className="pt-24 flex flex-col items-cen mx-auto">
                     <h2
@@ -14,7 +13,6 @@ export default function Staytuned() {
                         Stay tuned we are working on it!
                     </h2>
                 </div>
-
             </main>
         </div>
     );

@@ -1,87 +1,87 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import aizen from "@/public/work/aizen.jpg";
-import kamui from "@/public/work/kamui.jpg";
-import pokedex from "@/public/work/pokedex.jpg";
-import portfolio from "@/public/work/portfolio.jpg";
-import cryptohunter from "@/public/work/crypto-hunter.jpg";
-import redeye from "@/public/work/red-eye.jpg";
-import evo from "@/public/work/evo.jpg";
-import notion from "@/public/work/notion.jpg";
-import nike from "@/public/work/nike.jpg";
+import corporate from '@/public/corporate-compr.jpeg'
+import construction from '@/public/construction-compr.jpeg'
+import retail from '@/public/retail-crop-compr.png'
+import industry from '@/public/industry-compr.jpeg'
+import warehouse from '@/public/warehouse-compr.jpeg'
+import building from '@/public/building-compr.jpeg'
+import reception from '@/public/reception-compr.jpeg'
+import door from '@/public/door-compr.jpeg'
+import dog from '@/public/dog-compr.jpeg'
 
 const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: aizen,
-      title: "Aizen",
-      description: "Create beautiful images and gifs of your source code",
+      image: corporate,
+      title: "Corporate Security",
+      description: "The impenetrable shield for your business.",
       link: "https://aizen.netlify.app/",
       target: "_self",
     },
     {
       id: 2,
-      image: kamui,
-      title: "Kamui",
-      description: "Kanban board for planner with superpowers",
+      image: construction,
+      title: "Construction Security",
+      description: "The strongest defense for your construction project.",
       link: "https://kamui-kanban.netlify.app/",
       target: "_self",
     },
     {
       id: 3,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
+      image: retail,
+      title: "Retail Security",
+      description: "Security so good, It's practically invisible.",
       link: "https://pokedex-polly.netlify.app/",
       target: "_self",
     },
     {
       id: 4,
-      image: evo,
-      title: "Evo Gym",
-      description: "Gym Landing Page",
+      image: industry,
+      title: "Industrial Security",
+      description: "Next-Level security for today's industry.",
       link: "https://evogymm.netlify.app/",
       target: "_blank",
     },
     {
       id: 5,
-      image: nike,
-      title: "Nike Store",
-      description: "Nike Store Landing Page",
+      image: warehouse,
+      title: "Warehouse Security",
+      description: "Securing your assets, streamlining your success.",
       link: "https://nikestore-polly.netlify.app/",
       target: "_blank",
     },
     {
       id: 6,
-      image: notion,
-      title: "Potion",
-      description: "Connected workspace where better, faster work happens.",
+      image: building,
+      title: "Building Security",
+      description: "Building a connected future, with secure foundations.",
       link: "https://potion-write.vercel.app/",
       target: "_blank",
     },
     {
       id: 7,
-      image: portfolio,
-      title: "Portfolio",
-      description: "Portfolio made using Next.js and Tailwind CSS",
+      image: reception,
+      title: "Reception Security",
+      description: "Security done right, from morning to night.",
       link: "",
       target: "",
     },
     {
       id: 8,
-      image: cryptohunter,
-      title: "Crypto Hunter",
-      description: "Get the Trending Crypto list with its Price",
+      image: door,
+      title: "Door Supervision",
+      description: "Peace of mind you can find, with our security in mind.",
       link: "https://crytocurrencyhunter.netlify.app/",
       target: "_self",
     },
     {
       id: 9,
-      image: redeye,
-      title: "Red Eye",
-      description: "Question based website to know your movie genre",
+      image: dog,
+      title: "Dog Security",
+      description: "Security so good, it'll leave a paw print on your heart.",
       link: "https://red-eye.netlify.app/",
       target: "_self",
     },
@@ -97,7 +97,7 @@ const ProjectCard = () => {
           >
             <Link
               href={project.link}
-              target={project.target}
+              // target={project.target}
               onClick={() => {
                 project.title === "Portfolio"
                   ? alert("You are already on this site! 🤩")
